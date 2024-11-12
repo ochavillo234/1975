@@ -1,0 +1,355 @@
+<html lang="en">
+	<head>
+		<title>THE 1975 BAND</title>
+		<meta charset="uft-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		*	{
+			box-sizing: border-box;
+			}
+
+		body	{
+			font-family: arial;
+			color: white;
+			background-color: white;
+			}
+
+		.header	{
+			background-color: black;
+			padding: 1px;
+			text-align: center;
+			font-size: 40px;
+			color: white;
+			font-family: arial black;
+			}
+
+		img	{
+			width: 100%;
+			height: auto;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			}
+
+		.column	{
+			float: left;
+			padding: 10px;
+			height: 1100px;
+			}
+
+		.column.side	{
+				width: 25%;
+				}
+
+		.column.middle	{
+				width: 50%;
+				}
+
+		.row::after	{
+			content: "";
+			display: table;
+			clear: both;
+			}
+
+		.footer	{
+			background-color: black;
+			text-align: center;
+			font-family: arial black;
+			font-size: 30px;
+			padding: 10px;
+			}
+
+		@media (max-width: 600px)	{
+			.column.side, .column.middle	{
+						width: 100%;
+						}
+					}
+		ul 	{
+			top: 0;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: black;
+			}
+
+		li	{
+			float: left;
+			}
+
+		li a	{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			}
+
+		li a:hover, .dropdown:hover .dropbtn	{
+						background-color: white;
+						color: black;
+						}
+
+		.active	{
+			background-color: grey;
+			}
+
+		li:last-child {
+  			border-right: none;
+			}
+
+		li.dropdown	{
+				display: inline-block;
+				}
+		.dropdown-content	{
+				display: none;
+				position: absolute;
+				background-color: gray;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+				}
+
+		.dropdown-content a	{
+					color: black;
+					padding: 12px 16 px;
+					text-decoration: none;
+					display: block;
+					text-align: left;
+					}
+
+		.dropdown-content a:hover	{ background-color: white;}
+		.dropdown:hover .dropdown-content	{
+						display: block;
+						}
+		table	{
+			text-align: center;
+			}
+		div.gallery {
+ 			margin: 20px;
+  			border: 1px solid #ccc;
+			float: left;
+			width: 150px;
+			}
+		div.gallery:hover	{
+				border: 1px solid #777;
+				}
+		div.gallery img	{
+				width: 100%;
+				height: auto;
+				}
+		div.desc	{
+			padding: 15px;
+  			text-align: center;
+			font-family: arial;
+			}
+		h2	{
+			color: white;
+			padding: 200px;
+			text-align: right;
+			}
+		div.backgound {
+			color: black;
+		}
+	</style>
+	</head>
+	<body>
+	<ul>
+		<li><a href="#home">Home</a></li>
+		<li><a href="#band">Band</a></li>
+		<li><a href="#tour">Tour</a></li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">About</a>
+			<div class="dropdown-content">
+				<a href="#">Songs</a>
+				<a href="#">Albums</a>
+				<a href="#">Merch</a>
+				<a href="#">News</a>
+				<a href="#">Awards</a>
+				<a href="#">History</a>
+				<a href="#">Contacts</a>
+			</div>
+		</li>			
+		<li style="float: right"><a class ="active" href="#sign in">Sign in</a></li>
+	</ul>
+		<div class="header">
+			<h1>THE 1975 BAND</h1>
+		</div>
+
+		<div class="row">
+			<div class="column side" style="background-color: black">
+				<h3 align="left">MUSIC STYLE AND INFLUENCES</h3>
+				<p align="justify">The 1975 have been classified as a pop rock band. Scott Kerr of AllMusic wrote that the band combined "the dark and youthful themes of sex, love, and fear with ethereal alt-rock music."Healy specifically cites Talking Heads, My Bloody Valentine, Ride, and Michael Jackson as musical influences; he states that his greatest influence is the oeuvre of filmmaker John Hughes. For their second album, I Like It When You Sleep, for You Are So Beautiful yet So Unaware of It, Healy cited Christina Aguilera, D'Angelo, Roberta Flack, Boards of Canada, and Sigur R�s as inspirations, saying that they're "a post-modern pop band that references a million things. I don't even know what my band is half the time.</p>
+
+				<h3>CURRENT TOURING MUSICIANS</h3>
+				<ol>
+					<li>John Waugh (2013 - Present)</li>
+					<li>Jamie Squire (2015 - Present)</li>
+					<li>Polly Money (2022 - Present)</li>
+					<li>Gabrielle Marie King (2023 - Present)</li>
+				</ol>
+			<img style="margin-top: 35%" src="./assets/first.gif" alt="First">
+				<h3>FORMER TOURING MUSICIANS</h3>
+				<ol>
+					<li>Taitlyn Jaiy (2018 - 2020)</li>
+					<li>Kaylee Jaiy (2018 - 2020)</li>
+					<li>Rebekah Rayner (2022 - 2023)</li>
+					<li>Carly Holt (2022)</li>
+				</ol>
+			<img style="margin-top: 35%" src="./assets/second.gif" alt="Second">
+			</div>
+
+			<div class="column middle" style="background-color: black">
+			<img src="./assets/third.jpg" alt="Third">
+			<h3 align="center">Adam Hann, Matthew "Matty" Healy, George Daniel, Ross MacDonald</h3>
+			<p align="justify">The 1975 are an English pop rock band formed in 2002 in Wilmslow, Cheshire. Now based in Manchester, the band consists of lead vocalist and rhythm guitarist Matthew "Matty" Healy, lead guitarist Adam Hann, bassist Ross MacDonald, and drummer/producer George Daniel.</p>
+			<p align="justify">The band members met in secondary school and performed together as teenagers. Gigs, organised by a council worker, led the band to sign with Dirty Hit and Polydor  Records. They opened for several major acts and released a series of extended plays (Facedown, Sex, Music for Cars, IV) from 2012�13, before releasing their UK chart-topping self-titled debut album (2013), which includes the popular singles "Sex", "Chocolate", and "Robbers".</p>
+			<p align="justify">Their second album, I Like It When You Sleep, for You Are So Beautiful yet So Unaware of It (2016), reached No. 1 in the UK, US, Canada, Australia and New Zealand. The band had further UK no 1 albums with the acclaimed A Brief Inquiry into Online Relationships (2018), Notes on a Conditional Form (2020) and Being Funny in a Foreign Language (2022).</p>
+			
+			<h3 align="center">SOME OF THEIR POPULAR SONGS</h3>
+			<table border="1">
+				<tr>
+					<th>Songs</th>
+					<th>Album</th>
+					<th>Year</th>
+				</tr>
+				<tr>
+					<td>Robbers</td>
+					<td>The 1975</td>
+					<td>2013</td>
+				</tr>
+				<tr>
+					<td>About You</td>
+					<td>Being Funny in a Foreign Language</td>
+					<td>2022</td>
+				</tr>
+				<tr>
+					<td>Somebody Else</td>
+					<td>I Like It When You Sleep, for You Are So Beautiful Yet So Unaware of It</td>
+					<td>2016</td>
+				</tr>
+				<tr>
+					<td>I'm Inlove With You</td>
+					<td>Being Funny in a Foreign Language</td>
+					<td>2022</td>
+				</tr>
+				<tr>
+					<td>Oh Caroline</td>
+					<td>Being Funny in a Foreign Language</td>
+					<td>2022</td>
+				</tr>
+				<tr>
+					<td>Love It If We Made It</td>
+					<td>A Breif Inquiry into Online Relationships</td>
+					<td>2018</td>
+				</tr>
+				<tr>
+					<td>Happiness</td>
+					<td>Being Funny in a Foreign Language</td>
+					<td>2022</td>
+				</tr>
+				<tr>
+					<td>Falling for You</td>
+					<td>The 1975</td>
+					<td>2013</td>
+				</tr>
+			</table>
+			</div>
+
+			<div class="column side" style="background-color:black">
+			<h3 align="right">AWARDS AND NOMINATIONS LIST</h3>
+			<img style="margin-bottom: 5%" src="./assets/fourth.gif" alt="Fourth">
+			<table border="1">
+				<tr>
+					<th>Award</th>
+					<th>Win</th>
+					<th>Nominations</th>
+				</tr>
+				<tr>
+					<td>AIM Independent Music</td>
+					<td>0</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>BBC Music Awards</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>BBC Radio's 1's Teen Awards</td>
+					<td>0</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>Brit Awards</td>
+					<td>4</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td>Grammy Awards</td>
+					<td>0</td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>Hungarian Music Awards</td>
+					<td>0</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>Ivor Novello Awards</td>
+					<td>2</td>
+					<td>2</td>
+				</tr>
+				</tr>
+				<tr>
+					<td>Mercury Prize</td>
+					<td>0</td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>MTV Europe Music Awards</td>
+					<td>0</td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>mtvU Woodie Awards</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>NME Awards</td>
+					<td>2</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>Q Awards</td>
+					<td>2</td>
+					<td>12</td>
+				</tr>
+				<tr>
+					<td>Pollstar Concert IndustryAwards</td>
+					<td>0</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>Teens Choice Awards</td>
+					<td>0</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>UK Music Video Awards</td>
+					<td>0</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>UK Festival Awards</td>
+					<td>0</td>
+					<td>3</td>
+				</tr>
+			</table>
+			<img style="margin: 5% 0" src="./assets/fifth.gif" alt="Fifth">
+			<p align="justify">The BBC Music Awards are the BBC's annual pop music awards, held every December, as a celebration of the musical achievements over the past twelve months.</p>
+			</div>
+			
+	</body>
+</html>
